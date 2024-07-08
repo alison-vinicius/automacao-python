@@ -1,8 +1,10 @@
 import pyautogui
 import time 
-import monitor_NIEAD.funcoes as funcoes
+import funcoes
+
 
 funcoes.baixar_Provas()
+funcoes.mover_fotos_para_pasta()
 funcoes.Entrar_No_I_lovePdf()
 funcoes.Mover_Fotos_Para_I_love_Pdf()
 
